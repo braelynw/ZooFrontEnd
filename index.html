@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoo Front End</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+</head>
+<body>
+    <h1 align="center">Welcome to the Zoo!</h1>
+
+    <div>Type of animal:
+    <select id="animalBox">
+        <option value="1">Tiger</option>
+        <option value="2">Bear</option>
+        <option value="3">Unicorn</option>
+        <option value="4">Giraffe</option>
+        <option value="5">Bee</option>
+
+    </select>
+
+    </div>
+    <div> Name your animal:
+    <input type="text" id="creation" placeholder="Ex. George">
+    <button id="create" class="btn btn-success">Create</button>
+    </div>
+
+    <div> Feed your animal:
+
+    <select id="foodBox">
+        <option value="1">Meat</option>
+        <option value="2">Fish</option>
+        <option value="3">Marshmallows</option>
+        <option value="4">Leaves</option>
+        <option value="5">Pollen</option>
+
+    </select>
+
+    <div></div>
+    <div>Animal Activity</div>
+    <button id="feed" class="btn btn-primary">Feed</button>
+    </div>
+
+
+    <div></div>
+    <h3 style="text-align: left;">Shenanigans in the zoo</h3>
+    <div style="text-align: left;"> (Click the animal to take it out of the zoo)</div>
+
+
+
+    <div id="send" align="left"></div>
+    <strong style="font-size: 17px">LOG</strong>
+    <div id="action"></div>
+
+
+</body>
+</html>

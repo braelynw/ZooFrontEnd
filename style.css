@@ -1,0 +1,15 @@
+body{
+    color: white;
+    background: url("image/africa_kenya_two_trees_and_an_elephant_masai_mara.jpg") no-repeat fixed center;
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+#action{
+    font-size: 15px;
+}
+#send{
+    font-size: 15px;
+}
